@@ -1,0 +1,58 @@
+*************************************************************
+***     CSE 362 Project :P2P messaging System using Java  *** 
+***     Project completed by :                            *** 
+***     Ahmed Yunus – 2014331036                          *** 
+***     Asif Mahmud Sagor - 2014331043                    *** 
+*************************************************************
+
+This software is built by java. So you need netbeans or eclipse to run this program.
+1. First download and install netbeans. Here is the download link :
+https://netbeans.org/downloads/
+2. Now open up netbeans.On the left most corner click File and then Open project and
+then navigate to project folder and click ChatApp.
+3. Now unfold ChatApp , then unfold Source Packages , then unfold mychatappp. Click
+MyChatAppp.java and press shift + F6 together. A window like below will appear.If the
+window appears then you have correctly implemented all the procedures.All details are below :
+
+1. Name : One must put his user name other wise the default name will be
+“Name” .
+2. En key : This is the encryption key. If keys from both side does not match up
+they will not be able to read messages.En key must be -15 to 5.
+3. R port : This is the port where one will receive the incoming messages and
+that will be shown on big text area.This must be any positive integer.
+4. T port : This is the port by which one will communicate with other side. This
+must be any positive integer.
+5. Ip : Default Ip is given localhost. Anyone can change it to any valid real ip to
+connect.
+6. Connect Button : After proper naming and insertion of En Key, R port, T
+port and Ip address one must press the Connect button in order to
+establish the connection with the other side.
+7. Disconnect Button : By Clicking this button any user can disconnect from
+the other side. So he will not receive message neither can send message.
+8. Text Area : The big box just below the Connect or Disconnect button is the
+Text area. Any exchanged message will appear here.9. SendBox Area : The long space on the left side of Side button is called
+SendBox area. Anything the user wish to send must type on this area.
+10.Send Button : After writing the message on SendBox area user must press
+the Send Button to send the message to the other side .
+11.Background Button : Pressing this key will change the color of GUI and
+Textarea.
+12.Chat history : Clicking this button will download the chat history between
+two users as a text file. It will be saved in the project folder as
+ChatHistory.txt.
+13.File Send : Clicking this button will tell the user to specify the file path
+example : C:\Users\Yunus\Desktop\1.txt.
+If the file path is valid it will send the file data to the other side i.e receiver.
+By using this app one can send upto 20 MB size of any kind whether it is
+txt,mp3,mp4,pdf or anyother file.
+
+Why this project is correct :
+We have implemented all the basic requirments. We have added some extra
+features like Encryption , Time , User name, Different color GUI , Any kind of file
+transfering . We have implemented java socket which is the foundation level
+requirments. The program works perfectly. So we think our project is correct.
+
+
+Particular part :
+
+Yunus did the JFrame design, File sending , background system and Message Receiving System.
+Sagor did the encryption system, Message Transmitting system and Chat History downloading system.
