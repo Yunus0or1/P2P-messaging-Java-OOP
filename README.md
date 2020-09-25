@@ -5,4 +5,4 @@ A P2P messaging application in Java to exchange message and files between two us
 ```
 A screen like below will be popped up.
 
-![ChatApp](https://ibb.co/wYqFC8G)
+![ChatApp](doc/p2p.png)
