@@ -7,7 +7,7 @@ A screen like below will be popped up.
 
 ![ChatApp](doc/p2p.png)
 
-  - **Name**: One must put his user name other wise the default name will be “Name”.
+  -   **Name**: One must put his user name other wise the default name will be “Name”.
 2. En key: This is the encryption key. If the keys from both sides do not match up they will not be able to read messages. En key must be -15 to 5 in jar file. If
 anyone runs java file by directly from source code, any positive integers can be used as an encryption key.
 3. R port: This is the port where one will receive the incoming messages. This must be any positive integer between 1024-65535.
