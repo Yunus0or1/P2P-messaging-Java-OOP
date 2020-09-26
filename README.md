@@ -24,7 +24,6 @@ anyone runs JAVA file by directly from source code, any positive integers can be
 
 ## How to run the app:
 >If you run from jar file press twice to run the project 2 times. So you can chat with yourself. The R-port of one app will be the T-port of another app and vice versa. Input the En-key and name and press connect. Now you can chat with yourself in localhost. If two parties have valid real IP and properly port forwarded in the router the two parties can chat remotely
-
 ---
 **Explanation on Source Code**
 ---
