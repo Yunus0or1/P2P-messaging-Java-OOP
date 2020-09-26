@@ -20,7 +20,4 @@ anyone runs JAVA file by directly from source code, any positive integers can be
 10. **Send Button**: After writing the message on Send Box area user must press the Send Button to send the message to the other side .
 11. **Background Button**: Pressing this key will change the color of GUI and Text area.
 12. **Chat history**: Clicking this button will download the chat history between two users as a text file. It will be saved in the project folder asChatHistory.txt.
-13. **File Send**: Clicking this button will tell the user to specify the file path example : C:\Users\<username>\Desktop\1.txt.
-If the file path is valid it will send the file data to the other side i.e receiver.
-By using this app one can send up to 20 MB size of any kind whether it is
-txt, mp3, mp4, pdf or another file
+13. **File Send**: Clicking this button will tell the user to specify the file path example : C:\Users\username\Desktop\1.txt. If the file path is valid it will send the file data to the other side i.e receiver. By using this app one can send up to 20 MB size of any kind whether it is txt, mp3, mp4, pdf or another file
