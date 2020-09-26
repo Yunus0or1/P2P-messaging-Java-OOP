@@ -31,6 +31,9 @@ ___
 
 ## MessageListener.java
 
+  - It acts like a server
+  - Opens up socket to accept incoming connections
+  - If a special signal ***.......1*** comes from sender, it accepts file, otherwise accepts text message
 
 
 
