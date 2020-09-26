@@ -32,10 +32,20 @@ ___
 ## MessageListener.java
 
   - It acts like a server
-  - Opens up socket to accept incoming connections
+  - Opens up socket to accept incoming connections, it never gets closed down
   - If a special signal ***.......1*** comes from sender, it accepts file, otherwise accepts text message
 
+## MessageTransmitter.java
 
+  - It acts like a sender
+  - Opens up socket to send messages to a specific IP and Port, then closes it down.
+  - It also creates a socket connection with itself, so that the text message gets bounce back to itself and the user can see what he has writte.
+
+## MainScreen.java
+
+  - The codes are not written manually for maximum lines
+  - These are auto generated codes from Java Swing
+  - After line 284, chat history saving system is introduced. Basically all messages are appended in a String and later the String is written in a text file.
 
 
 
