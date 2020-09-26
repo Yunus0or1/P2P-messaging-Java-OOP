@@ -23,7 +23,8 @@ anyone runs JAVA file by directly from source code, any positive integers can be
 13. **File Send**: Clicking this button will tell the user to specify the file path example : C:\Users\username\Desktop\1.txt. If the file path is valid it will send the file data to the other side i.e receiver. By using this app one can send up to 20 MB size of any kind whether it is txt, mp3, mp4, pdf or another file
 
 ## How to run the app:
->If you run from jar file press twice to run the project 2 times. So you can chat with yourself. The R-port of one app will be the T-port of another app and vice versa. Input the En-key and name and press connect. Now you can chat with yourself in localhost. If two parties have valid real IP and properly port forwarded in the router the two parties can chat remotely
----
+>If you run from jar file press twice to run the project 2 times. So you can chat with yourself. The R-port of one app will be the T-port of another app and vice versa. Input the En-key and name and press connect. Now you can chat with yourself in localhost. If two parties have valid real IP and properly port forwarded in the router the two parties can chat remotely.
+
+___
 **Explanation on Source Code**
----
+___
